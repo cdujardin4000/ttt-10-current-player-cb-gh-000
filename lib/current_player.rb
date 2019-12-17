@@ -1,16 +1,6 @@
 
 
-def turn_count(board)
-  index = board[]
-  counter = 0
-  value = ""
-  board.each do board[index] = value
-    if value == "X" || value == "O"
-      counter += 1
-      current_player(counter)
-      end
-    end
-end
+counter = 4
 def current_player(counter)
   if counter.even? == true
     return "X"
