@@ -1,6 +1,7 @@
 
 
 def turn_count(board)
+  index = board[]
   counter = 0
   value = ""
   board.each do board[index] = value
